@@ -1,0 +1,8 @@
+To run:
+
+$HADOOP_HOME/bin/hadoop dfs -rm -r /pa1/hubscores
+$HADOOP_HOME/bin/hadoop dfs -rm -r /pa1/authscores
+$HADOOP_HOME/bin/hadoop dfs -rm -r /pa1/baseset
+$HADOOP_HOME/bin/hadoop dfs -rm -r /pa1/rootset
+
+$SPARK_HOME/bin/spark-submit --class HITS --master spark://salt-lake-city:30135 --deploy-mode cluster ./target/scala-2.11/hits_2.11-1.0.jar eclipse

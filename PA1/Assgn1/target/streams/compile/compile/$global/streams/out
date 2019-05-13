@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:1:25: object ml is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.Pipeline[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:2:25: object ml is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.evaluation.RegressionEvaluator[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:3:25: object ml is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.feature.VectorIndexer[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:4:25: object ml is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.regression.{RandomForestRegressionModel, RandomForestRegressor}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:13:32: not found: type VectorIndexer[0m
+[0m[[0m[31merror[0m] [0m[0m      val featureIndexer = new VectorIndexer()[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:23:20: not found: type RandomForestRegressor[0m
+[0m[[0m[31merror[0m] [0m[0m      val rf = new RandomForestRegressor()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:28:26: not found: type Pipeline[0m
+[0m[[0m[31merror[0m] [0m[0m      val pipeline = new Pipeline()[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:41:27: not found: type RegressionEvaluator[0m
+[0m[[0m[31merror[0m] [0m[0m      val evaluator = new RegressionEvaluator()[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/PA1/Assgn1/src/main/scala/RandomForest.scala:48:50: not found: type RandomForestRegressionModel[0m
+[0m[[0m[31merror[0m] [0m[0m      val rfModel = model.stages(1).asInstanceOf[RandomForestRegressionModel][0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

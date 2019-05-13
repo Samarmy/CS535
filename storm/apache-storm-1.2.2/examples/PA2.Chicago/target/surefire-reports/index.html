@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroEmitFrequencyShouldThrowIAE(-1)">negativeOrZeroEmitFrequencyShouldThrowIAE(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroEmitFrequencyShouldThrowIAE(0)">negativeOrZeroEmitFrequencyShouldThrowIAE(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroEmitFrequencyShouldThrowIAE(-10)">negativeOrZeroEmitFrequencyShouldThrowIAE(-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroEmitFrequencyShouldThrowIAE(-2)">negativeOrZeroEmitFrequencyShouldThrowIAE(-2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroEmitFrequencyShouldThrowIAE(-3)">negativeOrZeroEmitFrequencyShouldThrowIAE(-3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroTopNShouldThrowIAE(0)">negativeOrZeroTopNShouldThrowIAE(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroTopNShouldThrowIAE(-1)">negativeOrZeroTopNShouldThrowIAE(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroTopNShouldThrowIAE(-2)">negativeOrZeroTopNShouldThrowIAE(-2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroTopNShouldThrowIAE(-3)">negativeOrZeroTopNShouldThrowIAE(-3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="negativeOrZeroTopNShouldThrowIAE(-10)">negativeOrZeroTopNShouldThrowIAE(-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveEmitFrequencyShouldBeOk(20)">positiveEmitFrequencyShouldBeOk(20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveEmitFrequencyShouldBeOk(1)">positiveEmitFrequencyShouldBeOk(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveEmitFrequencyShouldBeOk(3)">positiveEmitFrequencyShouldBeOk(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveEmitFrequencyShouldBeOk(2)">positiveEmitFrequencyShouldBeOk(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveTopNShouldBeOk(3)">positiveTopNShouldBeOk(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveTopNShouldBeOk(1)">positiveTopNShouldBeOk(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveTopNShouldBeOk(2)">positiveTopNShouldBeOk(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="positiveTopNShouldBeOk(20)">positiveTopNShouldBeOk(20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="shouldDeclareOutputFields">shouldDeclareOutputFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="shouldEmitNothingIfNormalTupleIsReceived">shouldEmitNothingIfNormalTupleIsReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="shouldEmitSomethingIfTickTupleIsReceived">shouldEmitSomethingIfTickTupleIsReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.apache.storm.starter.bolt.IntermediateRankingsBoltTest" hash-for-method="shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue">shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.storm.starter.bolt.IntermediateRankingsBoltTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroEmitFrequencyShouldThrowIAE(-1)">
+                  </a> <!-- negativeOrZeroEmitFrequencyShouldThrowIAE(-1) -->
+                  <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroEmitFrequencyShouldThrowIAE(0)">
+                  </a> <!-- negativeOrZeroEmitFrequencyShouldThrowIAE(0) -->
+                  <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroEmitFrequencyShouldThrowIAE(-10)">
+                  </a> <!-- negativeOrZeroEmitFrequencyShouldThrowIAE(-10) -->
+                  <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE</span>
+                  <span class="parameters">(-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroEmitFrequencyShouldThrowIAE(-2)">
+                  </a> <!-- negativeOrZeroEmitFrequencyShouldThrowIAE(-2) -->
+                  <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE</span>
+                  <span class="parameters">(-2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroEmitFrequencyShouldThrowIAE(-3)">
+                  </a> <!-- negativeOrZeroEmitFrequencyShouldThrowIAE(-3) -->
+                  <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE</span>
+                  <span class="parameters">(-3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroTopNShouldThrowIAE(0)">
+                  </a> <!-- negativeOrZeroTopNShouldThrowIAE(0) -->
+                  <span class="method-name">negativeOrZeroTopNShouldThrowIAE</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroTopNShouldThrowIAE(-1)">
+                  </a> <!-- negativeOrZeroTopNShouldThrowIAE(-1) -->
+                  <span class="method-name">negativeOrZeroTopNShouldThrowIAE</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroTopNShouldThrowIAE(-2)">
+                  </a> <!-- negativeOrZeroTopNShouldThrowIAE(-2) -->
+                  <span class="method-name">negativeOrZeroTopNShouldThrowIAE</span>
+                  <span class="parameters">(-2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroTopNShouldThrowIAE(-3)">
+                  </a> <!-- negativeOrZeroTopNShouldThrowIAE(-3) -->
+                  <span class="method-name">negativeOrZeroTopNShouldThrowIAE</span>
+                  <span class="parameters">(-3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOrZeroTopNShouldThrowIAE(-10)">
+                  </a> <!-- negativeOrZeroTopNShouldThrowIAE(-10) -->
+                  <span class="method-name">negativeOrZeroTopNShouldThrowIAE</span>
+                  <span class="parameters">(-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveEmitFrequencyShouldBeOk(20)">
+                  </a> <!-- positiveEmitFrequencyShouldBeOk(20) -->
+                  <span class="method-name">positiveEmitFrequencyShouldBeOk</span>
+                  <span class="parameters">(20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveEmitFrequencyShouldBeOk(1)">
+                  </a> <!-- positiveEmitFrequencyShouldBeOk(1) -->
+                  <span class="method-name">positiveEmitFrequencyShouldBeOk</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveEmitFrequencyShouldBeOk(3)">
+                  </a> <!-- positiveEmitFrequencyShouldBeOk(3) -->
+                  <span class="method-name">positiveEmitFrequencyShouldBeOk</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveEmitFrequencyShouldBeOk(2)">
+                  </a> <!-- positiveEmitFrequencyShouldBeOk(2) -->
+                  <span class="method-name">positiveEmitFrequencyShouldBeOk</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTopNShouldBeOk(3)">
+                  </a> <!-- positiveTopNShouldBeOk(3) -->
+                  <span class="method-name">positiveTopNShouldBeOk</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTopNShouldBeOk(1)">
+                  </a> <!-- positiveTopNShouldBeOk(1) -->
+                  <span class="method-name">positiveTopNShouldBeOk</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTopNShouldBeOk(2)">
+                  </a> <!-- positiveTopNShouldBeOk(2) -->
+                  <span class="method-name">positiveTopNShouldBeOk</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTopNShouldBeOk(20)">
+                  </a> <!-- positiveTopNShouldBeOk(20) -->
+                  <span class="method-name">positiveTopNShouldBeOk</span>
+                  <span class="parameters">(20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDeclareOutputFields">
+                  </a> <!-- shouldDeclareOutputFields -->
+                  <span class="method-name">shouldDeclareOutputFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldEmitNothingIfNormalTupleIsReceived">
+                  </a> <!-- shouldEmitNothingIfNormalTupleIsReceived -->
+                  <span class="method-name">shouldEmitNothingIfNormalTupleIsReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldEmitSomethingIfTickTupleIsReceived">
+                  </a> <!-- shouldEmitSomethingIfTickTupleIsReceived -->
+                  <span class="method-name">shouldEmitSomethingIfTickTupleIsReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue">
+                  </a> <!-- shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue -->
+                  <span class="method-name">shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;org.apache.maven.surefire.testng.utils.GroupMatcherMethodSelector&quot; priority=&quot;9999&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;org.apache.storm.testing.IntegrationTest&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.apache.storm.starter.bolt.IntermediateRankingsBoltTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'negativeOrZeroEmitFrequencyShouldThrowIAE')
+data.setCell(0, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(0, 3, 571);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shouldDeclareOutputFields')
+data.setCell(1, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(1, 3, 129);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shouldEmitNothingIfNormalTupleIsReceived')
+data.setCell(2, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(2, 3, 40);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue')
+data.setCell(3, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(3, 3, 12);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldEmitSomethingIfTickTupleIsReceived')
+data.setCell(4, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'positiveEmitFrequencyShouldBeOk')
+data.setCell(5, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'positiveEmitFrequencyShouldBeOk')
+data.setCell(6, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'negativeOrZeroTopNShouldThrowIAE')
+data.setCell(7, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'negativeOrZeroEmitFrequencyShouldThrowIAE')
+data.setCell(8, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'negativeOrZeroTopNShouldThrowIAE')
+data.setCell(9, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'negativeOrZeroTopNShouldThrowIAE')
+data.setCell(10, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'positiveTopNShouldBeOk')
+data.setCell(11, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'negativeOrZeroEmitFrequencyShouldThrowIAE')
+data.setCell(12, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'positiveEmitFrequencyShouldBeOk')
+data.setCell(13, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negativeOrZeroEmitFrequencyShouldThrowIAE')
+data.setCell(14, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'negativeOrZeroTopNShouldThrowIAE')
+data.setCell(15, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'negativeOrZeroTopNShouldThrowIAE')
+data.setCell(16, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'positiveTopNShouldBeOk')
+data.setCell(17, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'positiveEmitFrequencyShouldBeOk')
+data.setCell(18, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'negativeOrZeroEmitFrequencyShouldThrowIAE')
+data.setCell(19, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'positiveTopNShouldBeOk')
+data.setCell(20, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'positiveTopNShouldBeOk')
+data.setCell(21, 2, 'org.apache.storm.starter.bolt.IntermediateRankingsBoltTest')
+data.setCell(21, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 767 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.storm.starter.bolt.IntermediateRankingsBoltTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE(-10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE(-3)</span>
+                <span class="method-start">571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE(-2)</span>
+                <span class="method-start">571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE(-1)</span>
+                <span class="method-start">572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroEmitFrequencyShouldThrowIAE(0)</span>
+                <span class="method-start">572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroTopNShouldThrowIAE(-10)</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroTopNShouldThrowIAE(-3)</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroTopNShouldThrowIAE(-2)</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroTopNShouldThrowIAE(-1)</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeOrZeroTopNShouldThrowIAE(0)</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveEmitFrequencyShouldBeOk(1)</span>
+                <span class="method-start">575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveEmitFrequencyShouldBeOk(2)</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveEmitFrequencyShouldBeOk(3)</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveEmitFrequencyShouldBeOk(20)</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTopNShouldBeOk(1)</span>
+                <span class="method-start">581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTopNShouldBeOk(2)</span>
+                <span class="method-start">581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTopNShouldBeOk(3)</span>
+                <span class="method-start">582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTopNShouldBeOk(20)</span>
+                <span class="method-start">582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldDeclareOutputFields</span>
+                <span class="method-start">582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldEmitNothingIfNormalTupleIsReceived</span>
+                <span class="method-start">711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldEmitSomethingIfTickTupleIsReceived</span>
+                <span class="method-start">751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldSetTickTupleFrequencyInComponentConfigurationToNonZeroValue</span>
+                <span class="method-start">759 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

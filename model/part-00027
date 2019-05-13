@@ -1,0 +1,82 @@
+Learned regression forest model:
+ DecisionTreeRegressionModel (uid=dtr_cdebc6a5b9d7) of depth 5 with 53 nodes
+  If (feature 76798 <= 18.0)
+   If (feature 76798 <= 4.5)
+    If (feature 76798 <= 1.5)
+     If (feature 127869 <= 86.5)
+      If (feature 124427 <= 40.5)
+       Predict: 0.2837089028444773
+      Else (feature 124427 > 40.5)
+       Predict: 0.13108335617242864
+     Else (feature 127869 > 86.5)
+      If (feature 195550 <= 11.5)
+       Predict: 0.3402412619857717
+      Else (feature 195550 > 11.5)
+       Predict: 8.0
+    Else (feature 76798 > 1.5)
+     If (feature 76798 <= 2.5)
+      If (feature 28304 <= 301129.5)
+       Predict: 0.9124685138539043
+      Else (feature 28304 > 301129.5)
+       Predict: 2.7349397590361444
+     Else (feature 76798 > 2.5)
+      If (feature 124427 <= 286.5)
+       Predict: 2.8822314049586777
+      Else (feature 124427 > 286.5)
+       Predict: 1.851138353765324
+   Else (feature 76798 > 4.5)
+    If (feature 76798 <= 8.5)
+     If (feature 20496 <= 1439.5)
+      If (feature 124427 <= 1.5)
+       Predict: 7.3061224489795915
+      Else (feature 124427 > 1.5)
+       Predict: 3.3807106598984773
+     Else (feature 20496 > 1439.5)
+      If (feature 76798 <= 6.5)
+       Predict: 5.069148936170213
+      Else (feature 76798 > 6.5)
+       Predict: 7.170731707317073
+    Else (feature 76798 > 8.5)
+     If (feature 28304 <= 178304.0)
+      If (feature 195550 <= 8.0)
+       Predict: 8.746666666666666
+      Else (feature 195550 > 8.0)
+       Predict: 46.0
+     Else (feature 28304 > 178304.0)
+      If (feature 115421 <= 0.5)
+       Predict: 14.343283582089553
+      Else (feature 115421 > 0.5)
+       Predict: 30.666666666666668
+  Else (feature 76798 > 18.0)
+   If (feature 76798 <= 60.5)
+    If (feature 76798 <= 32.0)
+     If (feature 195550 <= 0.5)
+      If (feature 28304 <= 33210.0)
+       Predict: 17.85
+      Else (feature 28304 > 33210.0)
+       Predict: 27.93548387096774
+     Else (feature 195550 > 0.5)
+      Predict: 106.0
+    Else (feature 76798 > 32.0)
+     If (feature 28304 <= 252.5)
+      Predict: 3.0
+     Else (feature 28304 > 252.5)
+      If (feature 124427 <= 1123.5)
+       Predict: 51.785714285714285
+      Else (feature 124427 > 1123.5)
+       Predict: 37.416666666666664
+   Else (feature 76798 > 60.5)
+    If (feature 20496 <= 1794.5)
+     If (feature 18693 <= 0.5)
+      Predict: 0.0
+     Else (feature 18693 > 0.5)
+      If (feature 20496 <= 1439.5)
+       Predict: 121.0
+      Else (feature 20496 > 1439.5)
+       Predict: 81.0
+    Else (feature 20496 > 1794.5)
+     If (feature 18693 <= 0.5)
+      Predict: 244.0
+     Else (feature 18693 > 0.5)
+      Predict: 181.0
+

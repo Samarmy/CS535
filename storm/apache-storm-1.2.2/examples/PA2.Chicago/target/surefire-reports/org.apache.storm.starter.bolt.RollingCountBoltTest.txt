@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.storm.starter.bolt.RollingCountBoltTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.533 sec - in org.apache.storm.starter.bolt.RollingCountBoltTest

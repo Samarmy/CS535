@@ -1,0 +1,2 @@
+org/apache/storm/starter/bolt/IntermediateRankingsBoltTest.class
+org/apache/storm/starter/bolt/TotalRankingsBoltTest.class

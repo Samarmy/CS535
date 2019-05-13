@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/TP/Assgn1/src/main/scala/MLModel.scala:140:19: overloaded method value drop with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (col: org.apache.spark.sql.Column)org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (colNames: String*)org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (colName: String)org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (String, axis: Int)[0m
+[0m[[0m[31merror[0m] [0m[0m      predictions.drop("features", axis=1).drop("translator_type_index", axis=1).drop("time_zone_index", axis=1).drop("time_zone_index", axis=1).write.format("csv").save("/tp/predictionPolitics")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/TP/Assgn1/src/main/scala/MLModel.scala:140:74: not found: value axis[0m
+[0m[[0m[31merror[0m] [0m[0m      predictions.drop("features", axis=1).drop("translator_type_index", axis=1).drop("time_zone_index", axis=1).drop("time_zone_index", axis=1).write.format("csv").save("/tp/predictionPolitics")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/TP/Assgn1/src/main/scala/MLModel.scala:140:106: not found: value axis[0m
+[0m[[0m[31merror[0m] [0m[0m      predictions.drop("features", axis=1).drop("translator_type_index", axis=1).drop("time_zone_index", axis=1).drop("time_zone_index", axis=1).write.format("csv").save("/tp/predictionPolitics")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/s/chopin/k/grad/sarmst/cs535/TP/Assgn1/src/main/scala/MLModel.scala:140:138: not found: value axis[0m
+[0m[[0m[31merror[0m] [0m[0m      predictions.drop("features", axis=1).drop("translator_type_index", axis=1).drop("time_zone_index", axis=1).drop("time_zone_index", axis=1).write.format("csv").save("/tp/predictionPolitics")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
